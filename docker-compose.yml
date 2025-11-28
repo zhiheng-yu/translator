@@ -1,6 +1,6 @@
 services:
   api:
-    build: .
+    image: translator
     ports:
       - "6003:6003"
     environment:
